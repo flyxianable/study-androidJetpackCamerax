@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = v.getId();
         switch(id){
             case R.id.image_capture_button:
-                CameraxCaptureUtil.takePhoto(MainActivity.this,  viewFinder, false);
+                CameraxCaptureUtil.doCamera(MainActivity.this,  viewFinder, false);
                 break;
             case R.id.video_capture_button:
                 break;
